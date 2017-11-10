@@ -1,0 +1,12 @@
+{
+    "postgres": {
+        "hostname": "hostname_from_vcap",
+        "port": 5432,
+        "user": "username_from_vcap",
+        "password": "password_from_vcap",
+        "dbname": "database_from_vcap"
+    },
+    "webserver": {
+        "port": "7000"
+    }
+}

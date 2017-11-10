@@ -1,0 +1,10 @@
+---
+applications:
+- name: your-go-demoapp
+  memory: 64M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  command: predix-go-sample-app
+  env:
+    GOVERSION: go1.9
+    GOPACKAGENAME: github.com/indaco/predix-go-sample-app
