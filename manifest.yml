@@ -1,10 +1,10 @@
 ---
 applications:
-- name: your-go-demoapp
+- name: experiments-go-sql-app
   memory: 64M
   instances: 1
-  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.8.43
   command: predix-go-sample-app
   env:
-    GOVERSION: go1.9
-    GOPACKAGENAME: github.com/indaco/predix-go-sample-app
+    GOVERSION: go1.11
+    GOPACKAGENAME: github.com/rajendragosavi/predix-go-sample-app
